@@ -1,0 +1,49 @@
+.caseStudy-section {
+  padding: 8.8rem 11.2rem;
+  background: linear-gradient(180deg, #eff0f3 0%, rgba(255, 221, 191, 0) 100%);
+
+  h2 {
+    @include text-style(4rem, $title-color, 5rem, 600);
+    letter-spacing: 0.02em;
+    margin-bottom: 3.2rem;
+  }
+  .see_link {
+    @include flex(2.4rem);
+    text-decoration: none;
+    @include text-style(2rem, $nav-color, 3rem);
+    margin: 3.2rem 0;
+  }
+
+  .cases {
+    width: 100%;
+    min-height: 400px;
+    background: #fff9f2;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 2.8rem;
+    @include flex($justify: space-between);
+
+    .text-box {
+      padding: 7.2rem 9rem;
+
+      h3 {
+        @include text-style(3.2rem, $title-color, 4.8rem, 600);
+        font-family: "Work Sans";
+        font-style: normal;
+      }
+      p {
+        font-family: "Work Sans";
+        font-style: normal;
+        @include text-style(2.4rem, $text-color, 3.6rem, 500);
+        margin: 0.4rem 0 2.5rem  0;
+      }
+      .view_link{
+        font-family: 'Work Sans';
+        font-style: normal;
+        
+        @include text-style(2.4rem, #4E5E80, 3.6rem, 600);
+        text-decoration: none;
+      }
+    }
+  }
+}

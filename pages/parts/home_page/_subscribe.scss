@@ -1,0 +1,65 @@
+.subscribe-section{
+    background: linear-gradient(180deg, #FFF2C5 0%, #FFFFFF 100%);
+    padding: 5.8rem 0;
+    text-align: center;
+
+    .icon-container{
+        display: block;
+        margin: auto;
+        width: 130px;
+        height: 130px;
+        background-color: $light;
+        border-radius: 100%;
+        position: relative;
+
+        img{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .subscribe-section__title{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        text-transform: capitalize;
+        @include text-style(3.6rem, $nav-color, 4.5rem, 700);
+        margin-top: 3rem;
+    }
+    .subscribe-section__paragraph{
+        @include text-style(2rem, #4D5566,2.5rem);
+        margin: 1rem 0 3rem 0;
+    }
+
+    .btn-input_container{
+        
+        input{
+            height: 67px;
+            width: 444px;
+            background: #FFFFFE;
+            border: 2px solid #4D5566;
+            border-radius: 8px;
+            padding-left: 2.5rem;
+            margin-right: 2rem;
+
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            @include text-style(2rem, #333333, 2.5rem);
+            outline: none;
+        }
+        
+        .subscribe-btn{
+            background: #F2C94C;
+            border-radius: 8px;
+            border: none;
+            a{
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                text-transform: capitalize;
+                @include text-style(2rem, $light, 2.5rem, 700)
+            }
+        }
+    }
+
+}

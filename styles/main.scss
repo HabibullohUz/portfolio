@@ -1,0 +1,14 @@
+@import "./settings/reset";
+@import "./settings/variables";
+@import "./settings/mixin";
+
+@import "../pages/parts/global-styles/global";
+@import "../pages/parts/home_page/header";
+@import "../pages/parts/home_page/caseStudy";
+@import "../pages/parts/home_page/caseCards";
+@import "../pages/parts/home_page/subscribe";
+@import "../pages/parts/home_page/contact-me";
+@import "../pages/parts/home_page/footer";
+
+@import "../pages/parts/blogs_page/blogs-header";
+@import "../pages/parts/blogs_page/blog_news"
